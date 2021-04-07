@@ -10,7 +10,7 @@
 
 
 //@shirNassim
-function Common() {
+function CommonModels() {
     //empty array to hold mongoose Schemas
     this.models = {};
 }
