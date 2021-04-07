@@ -17,7 +17,7 @@ function Common2() {
 
 Common.prototype.init = function(mongoose) {
     mongoose.connect("mongodb+srv://rivka:314792rb@cluster0.iutps.mongodb.net/leaderDB?retryWrites=true&w=majority", {
-    useNewUrlParser: true,
+    useNewUrlParser: false,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false,
